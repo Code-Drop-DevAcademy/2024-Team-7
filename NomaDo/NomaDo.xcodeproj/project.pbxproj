@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		09BBCB8E2C1CDF4A002C7147 /* NomaDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BBCB8D2C1CDF4A002C7147 /* NomaDoApp.swift */; };
-		09BBCB902C1CDF4A002C7147 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BBCB8F2C1CDF4A002C7147 /* ContentView.swift */; };
+		09BBCB902C1CDF4A002C7147 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BBCB8F2C1CDF4A002C7147 /* HomeView.swift */; };
 		09BBCB922C1CDF4B002C7147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BBCB912C1CDF4B002C7147 /* Assets.xcassets */; };
 		09BBCB952C1CDF4B002C7147 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BBCB942C1CDF4B002C7147 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		09BBCB8A2C1CDF4A002C7147 /* NomaDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NomaDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09BBCB8D2C1CDF4A002C7147 /* NomaDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomaDoApp.swift; sourceTree = "<group>"; };
-		09BBCB8F2C1CDF4A002C7147 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09BBCB8F2C1CDF4A002C7147 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		09BBCB912C1CDF4B002C7147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09BBCB942C1CDF4B002C7147 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				09BBCB8D2C1CDF4A002C7147 /* NomaDoApp.swift */,
-				09BBCB8F2C1CDF4A002C7147 /* ContentView.swift */,
+				09BBCB8F2C1CDF4A002C7147 /* HomeView.swift */,
 				09BBCB912C1CDF4B002C7147 /* Assets.xcassets */,
 				09BBCB932C1CDF4B002C7147 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09BBCB902C1CDF4A002C7147 /* ContentView.swift in Sources */,
+				09BBCB902C1CDF4A002C7147 /* HomeView.swift in Sources */,
 				09BBCB8E2C1CDF4A002C7147 /* NomaDoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
