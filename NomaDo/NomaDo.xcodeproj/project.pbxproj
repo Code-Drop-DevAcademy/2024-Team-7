@@ -11,6 +11,17 @@
 		09BBCB902C1CDF4A002C7147 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BBCB8F2C1CDF4A002C7147 /* HomeView.swift */; };
 		09BBCB922C1CDF4B002C7147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BBCB912C1CDF4B002C7147 /* Assets.xcassets */; };
 		09BBCB952C1CDF4B002C7147 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BBCB942C1CDF4B002C7147 /* Preview Assets.xcassets */; };
+		09BBCB9D2C1CE71C002C7147 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BBCB9C2C1CE71C002C7147 /* Color.xcassets */; };
+		09BBCBA02C1CE757002C7147 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BBCB9F2C1CE757002C7147 /* Font.swift */; };
+		09BBCBAB2C1CE7FE002C7147 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09BBCBA22C1CE7FE002C7147 /* Pretendard-SemiBold.otf */; };
+		09BBCBAC2C1CE7FE002C7147 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09BBCBA32C1CE7FE002C7147 /* Pretendard-Thin.otf */; };
+		09BBCBAD2C1CE7FE002C7147 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09BBCBA42C1CE7FE002C7147 /* Pretendard-ExtraBold.otf */; };
+		09BBCBAE2C1CE7FE002C7147 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09BBCBA52C1CE7FE002C7147 /* Pretendard-Light.otf */; };
+		09BBCBAF2C1CE7FE002C7147 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09BBCBA62C1CE7FE002C7147 /* Pretendard-ExtraLight.otf */; };
+		09BBCBB02C1CE7FE002C7147 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09BBCBA72C1CE7FE002C7147 /* Pretendard-Bold.otf */; };
+		09BBCBB12C1CE7FE002C7147 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09BBCBA82C1CE7FE002C7147 /* Pretendard-Medium.otf */; };
+		09BBCBB22C1CE7FE002C7147 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09BBCBA92C1CE7FE002C7147 /* Pretendard-Regular.otf */; };
+		09BBCBB32C1CE7FE002C7147 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09BBCBAA2C1CE7FE002C7147 /* Pretendard-Black.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,18 @@
 		09BBCB8F2C1CDF4A002C7147 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		09BBCB912C1CDF4B002C7147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09BBCB942C1CDF4B002C7147 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09BBCB9C2C1CE71C002C7147 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		09BBCB9F2C1CE757002C7147 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		09BBCBA22C1CE7FE002C7147 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		09BBCBA32C1CE7FE002C7147 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		09BBCBA42C1CE7FE002C7147 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		09BBCBA52C1CE7FE002C7147 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		09BBCBA62C1CE7FE002C7147 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		09BBCBA72C1CE7FE002C7147 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		09BBCBA82C1CE7FE002C7147 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		09BBCBA92C1CE7FE002C7147 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		09BBCBAA2C1CE7FE002C7147 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		09BBCBB42C1CE813002C7147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +74,9 @@
 		09BBCB8C2C1CDF4A002C7147 /* NomaDo */ = {
 			isa = PBXGroup;
 			children = (
+				09BBCBB42C1CE813002C7147 /* Info.plist */,
+				09BBCB9E2C1CE74B002C7147 /* Constant */,
+				09BBCB9B2C1CE6FB002C7147 /* Resource */,
 				09BBCB8D2C1CDF4A002C7147 /* NomaDoApp.swift */,
 				09BBCB8F2C1CDF4A002C7147 /* HomeView.swift */,
 				09BBCB912C1CDF4B002C7147 /* Assets.xcassets */,
@@ -65,6 +91,39 @@
 				09BBCB942C1CDF4B002C7147 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09BBCB9B2C1CE6FB002C7147 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				09BBCBA12C1CE782002C7147 /* Font */,
+				09BBCB9C2C1CE71C002C7147 /* Color.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		09BBCB9E2C1CE74B002C7147 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				09BBCB9F2C1CE757002C7147 /* Font.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		09BBCBA12C1CE782002C7147 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				09BBCBAA2C1CE7FE002C7147 /* Pretendard-Black.otf */,
+				09BBCBA72C1CE7FE002C7147 /* Pretendard-Bold.otf */,
+				09BBCBA42C1CE7FE002C7147 /* Pretendard-ExtraBold.otf */,
+				09BBCBA62C1CE7FE002C7147 /* Pretendard-ExtraLight.otf */,
+				09BBCBA52C1CE7FE002C7147 /* Pretendard-Light.otf */,
+				09BBCBA82C1CE7FE002C7147 /* Pretendard-Medium.otf */,
+				09BBCBA92C1CE7FE002C7147 /* Pretendard-Regular.otf */,
+				09BBCBA22C1CE7FE002C7147 /* Pretendard-SemiBold.otf */,
+				09BBCBA32C1CE7FE002C7147 /* Pretendard-Thin.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +185,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				09BBCB952C1CDF4B002C7147 /* Preview Assets.xcassets in Resources */,
+				09BBCBB12C1CE7FE002C7147 /* Pretendard-Medium.otf in Resources */,
+				09BBCBAC2C1CE7FE002C7147 /* Pretendard-Thin.otf in Resources */,
+				09BBCBAF2C1CE7FE002C7147 /* Pretendard-ExtraLight.otf in Resources */,
+				09BBCBAD2C1CE7FE002C7147 /* Pretendard-ExtraBold.otf in Resources */,
 				09BBCB922C1CDF4B002C7147 /* Assets.xcassets in Resources */,
+				09BBCBAE2C1CE7FE002C7147 /* Pretendard-Light.otf in Resources */,
+				09BBCB9D2C1CE71C002C7147 /* Color.xcassets in Resources */,
+				09BBCBB22C1CE7FE002C7147 /* Pretendard-Regular.otf in Resources */,
+				09BBCBB02C1CE7FE002C7147 /* Pretendard-Bold.otf in Resources */,
+				09BBCBB32C1CE7FE002C7147 /* Pretendard-Black.otf in Resources */,
+				09BBCBAB2C1CE7FE002C7147 /* Pretendard-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +208,7 @@
 			files = (
 				09BBCB902C1CDF4A002C7147 /* HomeView.swift in Sources */,
 				09BBCB8E2C1CDF4A002C7147 /* NomaDoApp.swift in Sources */,
+				09BBCBA02C1CE757002C7147 /* Font.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +345,7 @@
 				DEVELOPMENT_TEAM = S4QBFVSVQJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NomaDo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +375,7 @@
 				DEVELOPMENT_TEAM = S4QBFVSVQJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NomaDo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
