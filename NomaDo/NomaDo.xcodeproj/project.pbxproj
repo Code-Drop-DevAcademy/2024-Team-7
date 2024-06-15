@@ -24,6 +24,7 @@
 		09BBCBB32C1CE7FE002C7147 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09BBCBAA2C1CE7FE002C7147 /* Pretendard-Black.otf */; };
 		09BBCBB62C1CF229002C7147 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BBCBB52C1CF229002C7147 /* Record.swift */; };
 		09BBCBB82C1CFCF7002C7147 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BBCBB72C1CFCF7002C7147 /* Color.swift */; };
+		09BBCBBA2C1D0756002C7147 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BBCBB92C1D0756002C7147 /* NotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,9 +44,10 @@
 		09BBCBA82C1CE7FE002C7147 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
 		09BBCBA92C1CE7FE002C7147 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
 		09BBCBAA2C1CE7FE002C7147 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
-		09BBCBB42C1CE813002C7147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		09BBCBB42C1CE813002C7147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09BBCBB52C1CF229002C7147 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		09BBCBB72C1CFCF7002C7147 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		09BBCBB92C1D0756002C7147 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +80,9 @@
 		09BBCB8C2C1CDF4A002C7147 /* NomaDo */ = {
 			isa = PBXGroup;
 			children = (
-				09BBCB8D2C1CDF4A002C7147 /* NomaDoApp.swift */,
-				09BBCB8F2C1CDF4A002C7147 /* HomeView.swift */,
-				09BBCBB52C1CF229002C7147 /* Record.swift */,
-				09BBCBB42C1CE813002C7147 /* Info.plist */,
+				09BBCBC52C1D19D7002C7147 /* App */,
+				09BBCBC42C1D19B8002C7147 /* Feature */,
+				09BBCBBB2C1D174E002C7147 /* Model */,
 				09BBCB9E2C1CE74B002C7147 /* Constant */,
 				09BBCB9B2C1CE6FB002C7147 /* Resource */,
 				09BBCB932C1CDF4B002C7147 /* Preview Content */,
@@ -130,6 +131,40 @@
 				09BBCBA32C1CE7FE002C7147 /* Pretendard-Thin.otf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		09BBCBBB2C1D174E002C7147 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09BBCBB52C1CF229002C7147 /* Record.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09BBCBC32C1D192C002C7147 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				09BBCB8F2C1CDF4A002C7147 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		09BBCBC42C1D19B8002C7147 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				09BBCBB92C1D0756002C7147 /* NotificationManager.swift */,
+				09BBCBC32C1D192C002C7147 /* Home */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		09BBCBC52C1D19D7002C7147 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				09BBCB8D2C1CDF4A002C7147 /* NomaDoApp.swift */,
+				09BBCBB42C1CE813002C7147 /* Info.plist */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +252,7 @@
 				09BBCBB62C1CF229002C7147 /* Record.swift in Sources */,
 				09BBCBB82C1CFCF7002C7147 /* Color.swift in Sources */,
 				09BBCBA02C1CE757002C7147 /* Font.swift in Sources */,
+				09BBCBBA2C1D0756002C7147 /* NotificationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

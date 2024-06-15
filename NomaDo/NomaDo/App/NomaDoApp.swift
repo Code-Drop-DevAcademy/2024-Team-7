@@ -11,7 +11,7 @@ import SwiftUI
 struct NomaDoApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView(startTime: Date())
+            HomeView(startTime: Date(), endTime: Date())
         }
     }
 }
