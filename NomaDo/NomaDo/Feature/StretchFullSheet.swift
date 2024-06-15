@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct StrechFullSheet: View {
-    @State private var runningTimer = ""
+    @State private var runningTimer = "--:--"
     @State private var isShowingPause = false
-    @State private var nextHourInt: Double = 1
+    @State private var nextHourInt: Double = 10
     @State private var stretchTime: Double = 60.0
     @State private var stretchStart: Bool = false
     @State private var celebration: Bool = false
@@ -49,6 +49,8 @@ struct StrechFullSheet: View {
             if !stretchStart {
                 HStack {
                     TimerView(downloadAmount: $nextHourInt, runningTimer: $runningTimer, isShowingPause: $isShowingPause)
+                        .font(.custom(AppFont.bold, size: 32))
+                        .foregroundStyle(.white)
                     Text("후에 시작합니다")
                         .font(.custom(AppFont.semiBold, size: 30))
                         .foregroundStyle(Color.white)
@@ -102,7 +104,8 @@ struct StrechFullSheet: View {
                             }.padding()
                             
                         }
-                }.onAppear {
+                }
+                .onAppear {
                     stretchTime = 60.0
                 }
                 .onReceive(timer) { _ in
@@ -119,6 +122,7 @@ struct StrechFullSheet: View {
             } else {
                 Text("32명의 노마드가 대기 중")
                     .font(.custom(AppFont.semiBold, size: 20))
+                    .padding(.top, 120)
             }
             Spacer()
             if celebration {
