@@ -1,6 +1,6 @@
-<img src="https://github.com/DeveloperAcademy-POSTECH/2024-MC2-M14-SOONGEEZ/assets/135544903/aeebe2b1-7e17-4f59-b3f5-7d0332164cb5" width="120">
+<img src="https://github.com/Code-Drop-DevAcademy/2024-Team-7/assets/136756125/fb4b5552-8a21-4007-840c-7f2cd84726c7" width="120">
 
-# Finale
+# NomaDo: Do it, Nomad!
 <p align="center"><img width="1920" alt="NomaDo" src="https://github.com/Code-Drop-DevAcademy/2024-Team-7/assets/136756125/fcfc3760-30d9-4f43-9c24-6868c50833bd"></p>
 
 <br> 
