@@ -22,6 +22,7 @@ struct HomeView: View {
     @State var endTime : Date = Date().addingTimeInterval(8 * 3600)
     
     @State var isNotificationOn : Bool = false
+    @State var isShowingSheet : Bool = false
     
     @State var records: [RecordModel] = [
                 RecordModel(date: Date().addingTimeInterval(-86400 * 5), togetherPeople: [10, 2, 3]),
@@ -52,7 +53,7 @@ struct HomeView: View {
                             .foregroundColor(.main)
                         Spacer()
                         Button {
-                            
+                            isShowingSheet.toggle()
                         } label: {
                             ZStack {
                                 Rectangle()
@@ -63,6 +64,9 @@ struct HomeView: View {
                                     .font(.custom(AppFont.medium, size: 17))
                                     .foregroundColor(.white)
                             }
+                        }
+                        .sheet(isPresented: $isShowingSheet) {
+                            StrechFullSheet(isShowingSheet: $isShowingSheet)
                         }
                     }
                 }
