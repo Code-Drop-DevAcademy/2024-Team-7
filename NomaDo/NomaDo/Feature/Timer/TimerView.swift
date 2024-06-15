@@ -26,8 +26,6 @@ struct TimerView: View {
         VStack {
             VStack{
                 Text("\(runningTimer)")
-                    .font(.custom(AppFont.medium, size: 30))
-                    .foregroundStyle(.white)
             }
         }
         .onReceive(timer) { _ in
