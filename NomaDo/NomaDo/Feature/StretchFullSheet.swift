@@ -43,7 +43,6 @@ struct StrechFullSheet: View {
                 })
             }
             .padding(.vertical)
-            .padding(.horizontal)
             
             Spacer()
             
@@ -147,6 +146,7 @@ struct StrechFullSheet: View {
             }
             
         }
+        .padding(.horizontal)
         .onAppear {
             let calendar = Calendar.current
             let currentTime = Date()
