@@ -22,6 +22,7 @@ struct HomeView: View {
     @State var endTime : Date = Date().addingTimeInterval(8 * 3600)
     
     @State var isNotificationOn : Bool = false
+    @State var isShowingSheet : Bool = false
     
     @State var records: [RecordModel] = [
                 RecordModel(date: Date().addingTimeInterval(-86400 * 5), togetherPeople: [10, 2, 3]),
@@ -38,31 +39,34 @@ struct HomeView: View {
                 Rectangle()
                     .frame(height: 120)
                     .cornerRadius(9)
-                    .foregroundColor(.gray0)
+                    .foregroundStyle(.gray0)
                 VStack(alignment: .leading) {
                     Text("다음 스트레칭까지")
                         .font(.custom(AppFont.semiBold, size: 18))
-                        .foregroundColor(.white)
+                        .foregroundStyle(.white)
                         .padding(.horizontal, 5)
                         .padding(.top, 5)
                     HStack {
                         // TODO: - 타이머 적용
                         Text("45:03")
                             .font(.custom(AppFont.semiBold, size: 52))
-                            .foregroundColor(.main)
+                            .foregroundStyle(.main)
                         Spacer()
                         Button {
-                            
+                            isShowingSheet.toggle()
                         } label: {
                             ZStack {
                                 Rectangle()
                                     .frame(width: 106, height: 41)
                                     .cornerRadius(9)
-                                    .foregroundColor(.gray1)
+                                    .foregroundStyle(.gray1)
                                 Text("참여하기")
                                     .font(.custom(AppFont.medium, size: 17))
-                                    .foregroundColor(.white)
+                                    .foregroundStyle(.white)
                             }
+                        }
+                        .sheet(isPresented: $isShowingSheet) {
+                            StrechFullSheet(isShowingSheet: $isShowingSheet)
                         }
                     }
                 }
@@ -76,7 +80,7 @@ struct HomeView: View {
                 HStack{
                     Text("함께 한 노마드")
                         .font(.custom(AppFont.semiBold, size: 17))
-                        .foregroundColor(.white)
+                        .foregroundStyle(.white)
                     Spacer()
                 }
                 Chart {
@@ -142,7 +146,7 @@ fileprivate struct TimeList: View {
                 Rectangle()
                     .frame(height: 53)
                     .cornerRadius(13)
-                    .foregroundColor(.gray0)
+                    .foregroundStyle(.gray0)
                 HStack {
                     Text("시작 시간")
                     Spacer()
@@ -156,7 +160,7 @@ fileprivate struct TimeList: View {
                 Rectangle()
                     .frame(height: 53)
                     .cornerRadius(13)
-                    .foregroundColor(.gray0)
+                    .foregroundStyle(.gray0)
                 HStack {
                     Text("종료 시간")
                     Spacer()

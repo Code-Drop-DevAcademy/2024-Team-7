@@ -25,6 +25,9 @@
 		09BBCBB62C1CF229002C7147 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BBCBB52C1CF229002C7147 /* Record.swift */; };
 		09BBCBB82C1CFCF7002C7147 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BBCBB72C1CFCF7002C7147 /* Color.swift */; };
 		09BBCBBA2C1D0756002C7147 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BBCBB92C1D0756002C7147 /* NotificationManager.swift */; };
+		09BBCBC82C1D1B0C002C7147 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BBCBC72C1D1B0C002C7147 /* TimerView.swift */; };
+		09BBCBCA2C1D1B15002C7147 /* TimerBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BBCBC92C1D1B15002C7147 /* TimerBar.swift */; };
+		09BBCBCC2C1D1B1F002C7147 /* StretchFullSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BBCBCB2C1D1B1F002C7147 /* StretchFullSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		09BBCBB52C1CF229002C7147 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		09BBCBB72C1CFCF7002C7147 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		09BBCBB92C1D0756002C7147 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		09BBCBC72C1D1B0C002C7147 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		09BBCBC92C1D1B15002C7147 /* TimerBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBar.swift; sourceTree = "<group>"; };
+		09BBCBCB2C1D1B1F002C7147 /* StretchFullSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchFullSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,8 +158,10 @@
 		09BBCBC42C1D19B8002C7147 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				09BBCBC62C1D1B02002C7147 /* Timer */,
 				09BBCBB92C1D0756002C7147 /* NotificationManager.swift */,
 				09BBCBC32C1D192C002C7147 /* Home */,
+				09BBCBCB2C1D1B1F002C7147 /* StretchFullSheet.swift */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -165,6 +173,15 @@
 				09BBCBB42C1CE813002C7147 /* Info.plist */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		09BBCBC62C1D1B02002C7147 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				09BBCBC72C1D1B0C002C7147 /* TimerView.swift */,
+				09BBCBC92C1D1B15002C7147 /* TimerBar.swift */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,12 +264,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09BBCBC82C1D1B0C002C7147 /* TimerView.swift in Sources */,
 				09BBCB902C1CDF4A002C7147 /* HomeView.swift in Sources */,
+				09BBCBCC2C1D1B1F002C7147 /* StretchFullSheet.swift in Sources */,
 				09BBCB8E2C1CDF4A002C7147 /* NomaDoApp.swift in Sources */,
 				09BBCBB62C1CF229002C7147 /* Record.swift in Sources */,
 				09BBCBB82C1CFCF7002C7147 /* Color.swift in Sources */,
 				09BBCBA02C1CE757002C7147 /* Font.swift in Sources */,
 				09BBCBBA2C1D0756002C7147 /* NotificationManager.swift in Sources */,
+				09BBCBCA2C1D1B15002C7147 /* TimerBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +409,7 @@
 				DEVELOPMENT_TEAM = S4QBFVSVQJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NomaDo/Info.plist;
+				INFOPLIST_FILE = NomaDo/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -420,7 +440,7 @@
 				DEVELOPMENT_TEAM = S4QBFVSVQJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NomaDo/Info.plist;
+				INFOPLIST_FILE = NomaDo/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
